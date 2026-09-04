@@ -52,7 +52,7 @@ Proibido copiar `data` da query para um `useState` paralelo.
 | Hook próprio (`useFetch`) | Controle total; sem dependência | Vira uma reimplementação pior e não testada de uma biblioteca madura; alguém do time precisa mantê-la | Não é onde queremos gastar tempo de engenharia |
 | SWR | Leve; API mínima | Menos recursos para mutação, paginação e cache granular | Boa escolha; perde em app com escrita complexa |
 | RTK Query | Ótimo se já houver Redux | Traz Redux junto | Não temos Redux e não queremos introduzir |
-| RSC + `fetch` do Next | Zero JS no cliente | Só resolve leitura no servidor; interação continua precisando de cache no cliente | Complementar, não substituto — ver o projeto [entendendo-o-cache-do-next](https://github.com/vmarins2005/entendendo-o-cache-do-next) |
+| RSC + `fetch` do Next | Zero JS no cliente | Só resolve leitura no servidor; interação continua precisando de cache no cliente | Complementar, não substituto — ver o projeto [react-entendendo-o-cache-do-next](https://github.com/vmarins2005/react-entendendo-o-cache-do-next) |
 | TanStack Query | Resolve as 8 responsabilidades; devtools excelentes; padrão de mercado | ~13kB gzip; conceitos novos (staleTime vs gcTime) | **Escolhido** |
 
 ## Consequências

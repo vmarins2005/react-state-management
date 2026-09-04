@@ -86,5 +86,5 @@ useState  →  lift up  →  useReducer  →  Context (se estável)
 ```
 
 Suba um degrau apenas quando sentir a dor do anterior. Começar no topo é o mesmo
-erro de antecipação discutido no projeto [quando-abstrair](https://github.com/vmarins2005/quando-abstrair) — e a
+erro de antecipação discutido no projeto [react-quando-abstrair](https://github.com/vmarins2005/react-quando-abstrair) — e a
 sintomatologia é idêntica: muito código para pouco problema.

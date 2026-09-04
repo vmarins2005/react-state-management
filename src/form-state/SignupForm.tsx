@@ -29,7 +29,7 @@ import { z } from 'zod'
  *
  * E a regra que não pode ser esquecida: **esta validação é de conveniência.**
  * Ela melhora a experiência, não protege nada. O servidor precisa validar o
- * mesmo payload com o mesmo schema. Ver o projeto `seguranca-no-next`.
+ * mesmo payload com o mesmo schema. Ver o projeto `react-seguranca-no-next`.
  */
 
 const signupSchema = z
